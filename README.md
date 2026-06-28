@@ -35,13 +35,13 @@ PlaylistAI is a full-stack web app that talks to the **Spotify Web API** over OA
 
 ```
 AI-Playlist/
-├── spotify-backend/                 # Node + Express API
-│   ├── backend.js                   # all routes (auth, generate, save, covers)
-│   ├── covers.js                    # 8 pixel covers as base64 JPEGs
+├── spotify-backend/                 
+│   ├── backend.js                   
+│   ├── covers.js                    
 │   ├── package.json
-│   └── .env                         # your secrets (NOT committed)
+│   └── .env                        
 │
-└── my-playlist-app/                 # React + Vite frontend
+└── my-playlist-app/                 
     ├── src/
     │   ├── App.jsx
     │   ├── main.jsx
@@ -49,7 +49,7 @@ AI-Playlist/
     │       └── SpotifyPlaylistGenerator.jsx
     ├── vite.config.js
     ├── package.json
-    └── .env                         # backend URL (NOT committed)
+    └── .env                        
 ```
 
 ---
